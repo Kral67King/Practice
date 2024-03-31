@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="8" parallel="methods" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="8" parallel="methods" name="/Users/yusufduran/IdeaProjects/Mathstar/src/test/java/Practice/Autocomplete.java(failed)">
+    <classes>
+      <class name="Practice.Autocomplete">
+        <methods>
+          <include name="match" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Practice.Autocomplete -->
+    </classes>
+  </test> <!-- /Users/yusufduran/IdeaProjects/Mathstar/src/test/java/Practice/Autocomplete.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

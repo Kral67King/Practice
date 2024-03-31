@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="true" thread-count="2">
+    <test verbose="2" preserve-order="true"
+          name="/Users/yusufduran/IdeaProjects/Mathstar/src/test/java/Practice/DragAndDrop.java">
+        <classes>
+            <class name="Practice.DragAndDrop">
+                <methods>
+                    <include name="circleMove"/>
+                    <include name="dragDrop"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
